@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <form>
+            <select id="countries">
+                <option>Choose a Country</option>
+            </select>
+            <select id="states">
+                <option>Choose a State</option>
+            </select>
+            <select id="cities">
+                <option>Choose a City</option>
+            </select>
+            <button>Search</button>
+        </form>
+        <p id="message-one"></p>
+        <p id="message-two"></p>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>
+
